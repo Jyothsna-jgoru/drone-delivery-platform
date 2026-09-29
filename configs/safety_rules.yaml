@@ -1,0 +1,21 @@
+version: 1.0.0
+minimum_battery_reserve: 0.15
+maximum_payload_kg: 5.0
+maximum_motor_temperature_c: 85.0
+minimum_horizontal_separation_m: 1.5
+minimum_vertical_separation_m: 1.0
+minimum_altitude_m: 1.0
+maximum_altitude_m: 12.0
+collision_prediction_horizon_s: 4.0
+maximum_wind_speed_mps: 14.0
+communication_loss_steps: 8
+emergency_battery_level: 0.05
+restricted_zones:
+  - id: RZ-1
+    min_x: 8.0
+    max_x: 12.0
+    min_y: 8.0
+    max_y: 12.0
+    min_altitude: 0.0
+    max_altitude: 20.0
+

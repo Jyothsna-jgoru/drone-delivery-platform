@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+node_modules/
+.npm-cache/
+dist/
+*.tsbuildinfo
+
+# Runtime data and generated outputs
+data/
+artifacts/
+reports/
+mlruns/
+mlflow.db
+
+.env
+playwright-report/
+test-results/
+

@@ -1,0 +1,26 @@
+quick:
+  episodes: 8
+  max_steps: 60
+  batch_size: 2
+  buffer_size: 32
+  hidden_dim: 32
+standard:
+  episodes: 200
+  max_steps: 150
+  batch_size: 16
+  buffer_size: 1000
+  hidden_dim: 64
+full:
+  episodes: 2000
+  max_steps: 300
+  batch_size: 32
+  buffer_size: 10000
+  hidden_dim: 128
+common:
+  gamma: 0.99
+  learning_rate: 0.0005
+  epsilon_start: 1.0
+  epsilon_end: 0.05
+  target_update_interval: 20
+  gradient_clip: 10.0
+
